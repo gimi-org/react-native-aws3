@@ -29,7 +29,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib",
-    "clean": "rm -rf lib",
+    "clean": "npx rimraf lib",
     "prepublish": "yarn run clean && yarn run test && yarn run build",
     "test": "jest",
     "test-watch": "jest --watch"
