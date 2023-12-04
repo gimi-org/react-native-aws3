@@ -1,7 +1,7 @@
 /**
  * S3Policy
  */
-
+import 'react-native-get-random-values';
 const CryptoJS = require('crypto-js');
 const Buffer = global.Buffer || require('buffer').Buffer;
 const { dateToString } = require('./DateUtils');
